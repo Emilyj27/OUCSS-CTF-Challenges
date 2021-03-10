@@ -1,0 +1,11 @@
+So, to set the scene.  It's a late Friday night.  You're hunched over your hackstation in a dark hoodie and drink of choice.  
+(Personally, I'm a Malibu and Coke kind of person but that's not everyone's cup of tea...)
+
+Anyway, you're hacking an admin dashboard and Burp has thrown up a hash:
+
+bf2e03325fa76da3e1d97da94991c391
+
+You've enumerated the website and the "Forgotten password?" link for the admin logon has given you the password hint "Password starts with iloveoucss"
+You've checked the JS and it gives you password rules --> 10-15 characters a-z0-9.
+
+Crack the hash and get the flag from the ZIP file.
